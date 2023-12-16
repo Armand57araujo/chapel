@@ -1,0 +1,191 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* added by ian sills chadwick bartholemuel sampsonite the third */
+#root{
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.errorPage{
+  background-color: red;
+}
+
+#notepad-inner {
+  position: absolute;
+  resize: none;
+  background: transparent;
+  border: none;
+  color: black;
+  outline: none;
+  margin-top: 50px;
+  margin-left: 25px;
+  height: 490px;
+  width: 360px;
+  z-index: 4;
+}
+
+#notepad-outer {
+  position: absolute;
+  background-image: url('assets/images/notepad/notepad.jpg');
+  background-repeat: no-repeat;
+  margin-top: -450px;
+  margin-left: 740px;
+  height: 580px;
+  width: 394px;
+  z-index: 4;
+  transition: ease-in;
+  transition-duration: 2s;
+}
+
+.homeBanner{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+  background-color: grey;
+  margin-right:240px ;
+  position: absolute;
+  right: 0;
+  top:0; 
+}
+
+.font{
+
+  font-size: 20px;
+}
+
+.margin-top{
+  margin-top: 35px;
+}
+
+.margin-topsml{
+  margin-top: 15px;
+}
+
+
+.title{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 20px; 
+}
+
+.savescreenImage{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32%;
+  transform: translate(-50%);
+  width: 65%;
+  height: 100%;
+}
+.savescreenbanner{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 689px;
+  background-color: grey;
+  position: absolute;
+  right: 0;
+  top:0; 
+  border: 50px solid black;
+}
+.saveborder{
+  width: 500px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+button{
+  color: white;
+}
+
+.save-btn {
+  border-radius: 10px 0px 0px 10px; 
+  height: 93px;
+}
+
+.delete-btn {
+  height: 93px;
+  width: 10%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/* added by ian sills chadwick bartholemuel sampsonite the third */
+/*Noice */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
